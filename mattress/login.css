@@ -1,0 +1,138 @@
+.tab {
+    display: none;
+}
+
+.tab_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Style for the tab headers */
+.tab-header {
+    width: 100%;
+    color: #000;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* display: inline-block; */
+    /* padding: 10px 20px; */
+    /* background-color: #eee; */
+    cursor: pointer;
+}
+
+/* Style for the active tab header */
+.tab-header.active_tab {
+    background-color: #075698;
+    color: #fff;
+}
+
+/* Style for the tab content */
+.tab-content {
+    /* display: none; */
+    padding: 20px 0;
+    /* border: 1px solid #ccc; */
+   
+}
+.login{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 50px 40px;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+}
+
+/* Reset default list styles */
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-container {
+    display: flex;
+}
+
+.tab {
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+input[type="radio"]:checked + label + .tab-content {
+    display: block;
+}
+
+.input_blk{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+
+    
+}
+.input_blk input{
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.nav-link.active{
+    background-color: #075698;
+    color: #075698;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.submit_btn{
+    background-color: #075698;
+    border: transparent;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: initial;
+    border-radius: 10px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 30px 0;
+    gap: 10px;
+}
+.remember label{
+    margin-bottom: 0;
+} 
+
+.footer{
+    background-color: #e0f7ff !important;
+}

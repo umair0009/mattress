@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Creative Colorlib SignUp Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style.less" />
+		<script
+			type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- Custom Theme files -->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<!-- //Custom Theme files -->
+		<!-- web font -->
+		<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+		<!-- //web font -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+			integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	</head>
+
+	<body>
+
+		<div class="top-bg">
+			<div class="overlay">
+				<img class="logo" src="./img/Logo-top.png" alt="" />
+			</div>
+			<!--Main-content-->
+
+			<div class="seprator">
+				<div class="top-section"></div>
+				<div class="main-section">
+					<section class="login">
+						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<li class="nav-item"  role="presentation" >
+								<button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+									data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+									aria-selected="true">Login</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+									data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+									aria-selected="false">Register</button>
+							</li>
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+							<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+								aria-labelledby="pills-home-tab">
+								<form class="login_form">			
+									<div class="input_blk">
+										<input placeholder="email " type="email" />
+									</div>
+									<div class="input_blk">
+										<input placeholder="Password " type="password" />
+									</div>
+			
+									<div class="remember">
+										<label>Remember me</label>
+										<input type="checkbox" />
+									</div>
+
+									<button class="submit_btn" type="button">Login</button>
+
+			
+								</form>
+							</div>
+							<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+								aria-labelledby="pills-profile-tab">
+								<form>
+									<div class="input_blk">
+										<input placeholder="Name " type="text" />
+									</div>
+									<div class="input_blk">
+										<input placeholder="Username " type="text" />
+									</div>
+			
+									<div class="input_blk">
+										<input placeholder="Enter your email " type="email" />
+									</div>
+			
+									<div class="input_blk">
+										<input placeholder="Password " type="password" />
+									</div>
+									<div class="input_blk">
+										<input placeholder="Repeat Password " type="password" />
+									</div>
+			
+									<div class="remember">
+										<label>I HAVE READ AND AGREE TO THE TERMS</label>
+										<input type="checkbox" />
+									</div>
+
+									<button class="submit_btn" type="button">Register</button>
+			
+								</form>
+							</div>
+							<!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+								aria-labelledby="pills-contact-tab">...</div> -->
+						</div>
+					</section>
+				</div>
+			</div>
+		
+			<div class="footer">
+				<div class="footer-bg">
+					<div class="footer-content">
+						<img src="./img/footer-logo.png" alt="" />
+						<div class="menu-list">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="register-page.html">Shop</a></li>
+							<li><a href="faq.html">Faq</a></li>
+							<li><a href="contact.html">contact</a></li>
+						</div>
+						<div class="footer-menu">
+							<p class="subscribe-text">subscribe to our newleter</p>
+							<div class="input-section">
+								<div class="main-input">
+									<input type="text" class="form-control" placeholder="ENTER YOUR EMAIL" />
+									<img src="./img/enter-arrow.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+			crossorigin="anonymous"></script>
+
+
+		<script>
+			$('#myTab button').on('click', function (event) {
+				event.preventDefault()
+				$(this).tab('show')
+			})
+		
+		</script>
+	</body>
+
+</html>

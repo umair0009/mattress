@@ -1,0 +1,22 @@
+@media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
+body{
+    background-color: #e0f7ff !important;
+    
+}
+.btn-primary{
+    border-color: #2a6496 !important;
+    color: #2a6496 !important;
+    background: transparent !important;
+    border-radius: 20px !important;
+}
+.btn-outline-primary{
+    border-color: #2a6496 !important;
+    border-radius: 20px !important;
+}
+.btn-outline-primary:hover{
+background-color: #2a6496 !important;
+color: white !important;
+}
+.main-section h1{
+    color: #2a6496 !important;
+}
